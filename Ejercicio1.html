@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encuentra las diferencias</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        .col-green { background-color: green; color: white; }
+        .col-red { background-color: red; color: white; }
+        .col-blue { background-color: blue; color: white; }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center mt-4">
+        <h1>Encuentra las diferencias</h1>
 
+        <!-- Fila de encabezados -->
+        <div class="row header">
+            <div class="col-4">Imágenes a comparar</div>
+            <div class="col-4"></div>
+            <div class="col-4">Cantidad de diferencias</div>
+        </div>
+
+        <!-- Fila de contenido -->
+        <div class="row">
+            <div class="col-4 col-green image-container">
+                <img src="https://img.icons8.com/bubbles/140/000000/stack-of-photos.png" class="img-fluid">
+            </div>
+            <div class="col-4 col-red image-container">
+                <img src="https://img.icons8.com/clouds/140/000000/stack-of-photos.png" class="img-fluid">
+            </div>
+            <div class="col-4 col-blue">
+                <br>
+                <input type="radio" id="dif5" name="diferencias"> <label for="dif5">5</label><br>
+                <input type="radio" id="dif3" name="diferencias"> <label for="dif3">3</label><br>
+                <input type="radio" id="dif2" name="diferencias"> <label for="dif2">2</label><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* Encabezado con fondo amarillo */
+.header {
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para las columnas de imágenes y opciones */
+.col-green { 
+    background-color: green; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.col-red { 
+    background-color: red; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.col-blue { 
+    background-color: blue; 
+    color: white; 
+    text-align: left; 
+    padding: 20px;
+}
+
+/* Ajuste de imágenes para responsividad */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries para ajustar en pantallas pequeñas */
+@media (max-width: 768px) {
+    .header {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+
+    .col-green, .col-red, .col-blue {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .col-blue {
+        text-align: center;
+    }
+}
