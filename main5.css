@@ -1,0 +1,46 @@
+/* Estilos generales */
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Ajuste de imágenes para responsividad */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries para ajustar en pantallas pequeñas */
+@media (max-width: 768px) {
+    .header {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+
+    .col-green, .col-red, .col-blue {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .col-blue {
+        text-align: center;
+    }
+}
+
+.card-body{
+
+    color: rgb(11, 93, 85);
+
+
+}
