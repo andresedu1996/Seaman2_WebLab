@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px 15px;
+}
+
+/* Encabezado */
+.header {
+    background-color: #333a42;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+}
+
+/* Estilos para la fila de contenido */
+.content-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilos para las columnas */
+.col-green, .col-red, .col-blue {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ajustes de color */
+.col-green { background-color: white; color: black; }
+.col-red { background-color: #f5fbfb; }
+.col-blue { background-color: #22a3b9; color: white; }
+
+/* Ajuste de imágenes */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    .content-row {
+        flex-direction: column;
+    }
+
+    .col-green, .col-red, .col-blue {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+}

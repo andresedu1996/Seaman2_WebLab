@@ -1,0 +1,54 @@
+h1{
+    color: rgb(136, 4, 79)
+    }
+    p{
+        text-align: center;
+     
+    }
+    body{
+        background-color: rgb(14, 15, 16);
+    }
+    .description{
+    font-weight: bold;
+    color: blue;
+    
+    }
+    
+    .description2{
+        font-weight: bold;
+        color: rgb(60, 255, 0);
+        
+        }
+        #encabezado{
+    background-color: blue;
+    text-align: right;
+    color: aliceblue;
+    
+        }
+    
+        a[href="https://ceutec.hn/"] {
+    color: red;
+    font-size: large;
+    font-style: italic;
+        }
+    
+        body{
+            background-color: #733924;
+      
+    
+        }
+    
+    
+        div{
+    width: 300px;
+    background-color: rgb(196, 242, 105);
+    border: 15px solid orange;
+    padding: 50px;
+    margin: 20px;
+    display: block;
+            
+        }
+        h5{
+            font-size: small;
+        }
+    
